@@ -1,0 +1,30 @@
+{
+  "name": "@powerkernel/renovate-config",
+  "version": "1.0.0",
+  "description": "Shareable Renovate Config Presets",
+  "keywords": [
+    "renovate",
+    "config"
+  ],
+  "author": "Harry Tang <harry@powerkernel.com>",
+  "license": "ISC",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base",
+        ":disableDependencyDashboard"
+      ],
+      "packageRules": [
+        {
+          "updateTypes": [
+            "minor",
+            "patch",
+            "pin",
+            "digest"
+          ],
+          "automerge": true
+        }
+      ]
+    }
+  }
+}
