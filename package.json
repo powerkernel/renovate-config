@@ -2,7 +2,6 @@
   "name": "@powerkernel/renovate-config",
   "version": "1.0.0",
   "description": "Shareable Renovate Config Presets",
-  "private": false,
   "keywords": [
     "renovate",
     "config"
