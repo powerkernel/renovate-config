@@ -8,6 +8,9 @@
   ],
   "author": "Harry Tang <harry@powerkernel.com>",
   "license": "ISC",
+  "scripts": {
+    "release": "npx standard-version && git push --follow-tags origin main"
+  },
   "renovate-config": {
     "default": {
       "extends": [
